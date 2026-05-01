@@ -10,6 +10,9 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@ai-sdk/openai": "^3.0.55",
+    "@ai-sdk/vue": "^3.0.172",
+    "ai": "^6.0.172",
     "nuxt": "^4.4.2",
     "vue": "^3.5.33",
     "vue-router": "^5.0.6"
