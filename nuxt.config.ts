@@ -9,5 +9,6 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     openrouterApiKey: process.env.OPENROUTER_API_KEY,
+    openrouterModel: process.env.OPENROUTER_MODEL,
   },
 })

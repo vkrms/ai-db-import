@@ -18,7 +18,7 @@ export default defineEventHandler(async (event) => {
   })
 
   const result = streamText({
-    model: openrouter('qwen/qwen3-coder'),
+    model: openrouter(config.openrouterModel || 'qwen/qwen3-235b-a22b'),
     messages: await convertToModelMessages(body.messages),
   })
 
